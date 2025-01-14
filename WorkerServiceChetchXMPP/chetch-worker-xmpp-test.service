@@ -2,6 +2,7 @@
 # 2. Chmod the copied file to 777
 # 3. Reload services with: sudo systemctl daemon-reload
 # 4. Check status with sudo systemctl status <file basename>
+# 5. To have the service run on start up: sudo systemctl enable <file basename>
 
 
 [Unit]
